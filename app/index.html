@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout Concept</title>
+
+  <link rel="stylesheet" href="/css/styles.min.css">
+</head>
+<body>
+  <div class="checkout">
+    <div class="checkout__bkg">
+      <div class="checkout__price">
+        <span class="checkout__price-item">Jacket</span>
+        <span class="checkout__price-amount">$199</span>
+      </div>
+    </div>
+    <div class="checkout__details">
+      <div class="checkout__details-tabs">
+        <div class="checkout__details-tabs__tab _active">Credit Card</div>
+        <div class="checkout__details-tabs__tab">PayPal</div>
+      </div>
+      <div class="checkout__details-tab" data-tab="creditcard">
+        <form action="#!">
+          <div class="form__row">
+            <label for="cc-number" class="form__label">Credit Card Number</label>
+            <input type="text" name="cc-number" autocomplete="cc-number" class="form__input">
+            <span class="form__input-card" data-card="visa"></span>
+          </div>
+          <div class="form__row">
+            <label for="cc-name" class="form__label">Cardholder Name</label>
+            <input type="text" name="cc-name" autocomplete="cc-name" class="form__input">
+          </div>
+          <div class="form__columns">
+            <div class="form__column">
+              <label for="cc-exp" class="form__label">Expiry Date</label>
+              <input type="text" name="cc-exp" autocomplete="cc-exp" class="form__input">
+            </div>
+            <div class="form__column">
+              <label for="cc-csc" class="form__label">CVV Code</label>
+              <input type="text" name="cc-csc" autocomplete="cc-csc" class="form__input">
+            </div>
+          </div>
+          <button class="form__button" type="submit">Check Out</button>
+        </form>
+      </div>
+      <div class="checkout__details-tab" data-tab="paypal">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>

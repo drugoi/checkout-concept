@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%; }
+
+html {
+  height: 101%; }
+
+body {
+  font-size: 62.5%;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+input {
+  outline: none; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+img {
+  max-width: 100%;
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+@font-face {
+  font-family: 'museo_sans';
+  font-weight: 900;
+  font-style: normal;
+  src: url(../fonts/museosanscyrl_0-webfont.eot);
+  src: url(../fonts/museosanscyrl_0-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosanscyrl_0-webfont.woff2) format("woff2"), url(../fonts/museosanscyrl_0-webfont.woff) format("woff"), url(../fonts/museosanscyrl_0-webfont.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'museo_sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/museosanscyrl_2-webfont.eot);
+  src: url(../fonts/museosanscyrl_2-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosanscyrl_2-webfont.woff2) format("woff2"), url(../fonts/museosanscyrl_2-webfont.woff) format("woff"), url(../fonts/museosanscyrl_2-webfont.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'museo_sans';
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/museosanscyrl-webfont.eot);
+  src: url(../fonts/museosanscyrl-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosanscyrl-webfont.woff2) format("woff2"), url(../fonts/museosanscyrl-webfont.woff) format("woff"), url(../fonts/museosanscyrl-webfont.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'museo_sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/museosanscyrl_3-webfont.eot);
+  src: url(../fonts/museosanscyrl_3-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosanscyrl_3-webfont.woff2) format("woff2"), url(../fonts/museosanscyrl_3-webfont.woff) format("woff"), url(../fonts/museosanscyrl_3-webfont.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'museo_sans';
+  font-weight: 100;
+  font-style: normal;
+  src: url(../fonts/museosanscyrl_1-webfont.eot);
+  src: url(../fonts/museosanscyrl_1-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/museosanscyrl_1-webfont.woff2) format("woff2"), url(../fonts/museosanscyrl_1-webfont.woff) format("woff"), url(../fonts/museosanscyrl_1-webfont.ttf) format("truetype"); }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "museo_sans", sans-serif;
+  background: #fc4a4d;
+  color: #121212; }
+
+/* Block: checkout*/
+.checkout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  background: #FFF;
+  width: 625px;
+  height: 390px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.checkout__bkg {
+  position: relative;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+     -moz-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  background: transparent url(../images/girl_bkg.png) no-repeat left center;
+  max-width: 344px;
+  width: 100%;
+  height: 100%; }
+
+.checkout__price {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  color: #FFF;
+  font-size: 33px; }
+
+.checkout__price-item {
+  float: left;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.checkout__price-amount {
+  float: left;
+  font-weight: 900;
+  clear: both; }
+
+.checkout__details {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+     -moz-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  padding-top: 30px;
+  padding-right: 30px; }
+
+.checkout__details-tabs {
+  height: 36px;
+  border-bottom: 1px solid #121212;
+  padding-bottom: 15px;
+  margin-bottom: 35px; }
+
+.checkout__details-tabs__tab {
+  text-align: center;
+  font-size: 18px;
+  float: left;
+  width: 50%;
+  font-weight: 300;
+  cursor: pointer; }
+  .checkout__details-tabs__tab._active, .checkout__details-tabs__tab:hover {
+    color: #ff4848; }
+  .checkout__details-tabs__tab._active {
+    border-bottom: 2px solid #fc4a4d;
+    padding-bottom: 16px; }
+
+.form__row {
+  margin-bottom: 20px; }
+  .form__row:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.form__label {
+  font-weight: 700;
+  font-size: 9px;
+  float: left;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 0.08em; }
+
+.form__input {
+  outline: none;
+  border: 1px solid #b0b0b0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  width: 100%;
+  height: 28px;
+  font-size: 15px;
+  font-weight: 100;
+  padding-left: 15px;
+  -webkit-transition: all 200ms ease-in-out;
+     -moz-transition: all 200ms ease-in-out;
+       -o-transition: all 200ms ease-in-out;
+          transition: all 200ms ease-in-out;
+  letter-spacing: 0.08em;
+  text-transform: uppercase; }
+  .form__input:focus {
+    border-color: #fc4a4d; }
+
+.form__columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-bottom: 30px; }
+
+.form__column:first-child {
+  margin-right: 10px; }
+
+.form__button {
+  cursor: pointer;
+  letter-spacing: 0.12em;
+  background-color: #fc4a4d;
+  height: 40px;
+  width: 100%;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 900;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center; }
+/*# sourceMappingURL=styles.min.css.map */

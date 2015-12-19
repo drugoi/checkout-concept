@@ -27,8 +27,7 @@ module.exports = {
 
   html: {
     files: [
-      'app/templates/**/*.html',
-      'app/pages/**/*.html'
+      'app/*.html'
     ],
     tasks: [
       'htmlbuild:dev'
